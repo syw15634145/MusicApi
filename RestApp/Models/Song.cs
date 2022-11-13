@@ -1,7 +1,9 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 
 namespace RestApp.Models
 {
+	[Keyless]
 	public class Song
 	{
         public Song(string name, string artist)
